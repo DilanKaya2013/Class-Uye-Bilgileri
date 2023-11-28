@@ -1,0 +1,195 @@
+﻿namespace Class_Uye_Bilgileri
+{
+    partial class Form1
+    {
+        /// <summary>
+        /// Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        /// Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.btnUyelik = new System.Windows.Forms.Button();
+            this.lblAd = new System.Windows.Forms.Label();
+            this.lblSoyad = new System.Windows.Forms.Label();
+            this.lblTelefon = new System.Windows.Forms.Label();
+            this.lblEposya = new System.Windows.Forms.Label();
+            this.lblSifre = new System.Windows.Forms.Label();
+            this.lblAdres = new System.Windows.Forms.Label();
+            this.txtAd = new System.Windows.Forms.TextBox();
+            this.txtSoyad = new System.Windows.Forms.TextBox();
+            this.txtTelefon = new System.Windows.Forms.TextBox();
+            this.txtEposta = new System.Windows.Forms.TextBox();
+            this.txtSifre = new System.Windows.Forms.TextBox();
+            this.txtAdres = new System.Windows.Forms.TextBox();
+            this.SuspendLayout();
+            // 
+            // btnUyelik
+            // 
+            this.btnUyelik.Font = new System.Drawing.Font("Microsoft Sans Serif", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
+            this.btnUyelik.Location = new System.Drawing.Point(61, 217);
+            this.btnUyelik.Name = "btnUyelik";
+            this.btnUyelik.Size = new System.Drawing.Size(106, 42);
+            this.btnUyelik.TabIndex = 0;
+            this.btnUyelik.Text = "Kullanıcı Bilgileri";
+            this.btnUyelik.UseVisualStyleBackColor = true;
+            this.btnUyelik.Click += new System.EventHandler(this.btnUyelik_Click);
+            // 
+            // lblAd
+            // 
+            this.lblAd.AutoSize = true;
+            this.lblAd.Location = new System.Drawing.Point(13, 25);
+            this.lblAd.Name = "lblAd";
+            this.lblAd.Size = new System.Drawing.Size(20, 13);
+            this.lblAd.TabIndex = 1;
+            this.lblAd.Text = "Ad";
+            // 
+            // lblSoyad
+            // 
+            this.lblSoyad.AutoSize = true;
+            this.lblSoyad.Location = new System.Drawing.Point(13, 54);
+            this.lblSoyad.Name = "lblSoyad";
+            this.lblSoyad.Size = new System.Drawing.Size(37, 13);
+            this.lblSoyad.TabIndex = 2;
+            this.lblSoyad.Text = "Soyad";
+            // 
+            // lblTelefon
+            // 
+            this.lblTelefon.AutoSize = true;
+            this.lblTelefon.Location = new System.Drawing.Point(13, 83);
+            this.lblTelefon.Name = "lblTelefon";
+            this.lblTelefon.Size = new System.Drawing.Size(43, 13);
+            this.lblTelefon.TabIndex = 3;
+            this.lblTelefon.Text = "Telefon";
+            // 
+            // lblEposya
+            // 
+            this.lblEposya.AutoSize = true;
+            this.lblEposya.Location = new System.Drawing.Point(13, 112);
+            this.lblEposya.Name = "lblEposya";
+            this.lblEposya.Size = new System.Drawing.Size(43, 13);
+            this.lblEposya.TabIndex = 4;
+            this.lblEposya.Text = "E-posta";
+            // 
+            // lblSifre
+            // 
+            this.lblSifre.AutoSize = true;
+            this.lblSifre.Location = new System.Drawing.Point(13, 141);
+            this.lblSifre.Name = "lblSifre";
+            this.lblSifre.Size = new System.Drawing.Size(28, 13);
+            this.lblSifre.TabIndex = 5;
+            this.lblSifre.Text = "Şifre";
+            // 
+            // lblAdres
+            // 
+            this.lblAdres.AutoSize = true;
+            this.lblAdres.Location = new System.Drawing.Point(13, 170);
+            this.lblAdres.Name = "lblAdres";
+            this.lblAdres.Size = new System.Drawing.Size(34, 13);
+            this.lblAdres.TabIndex = 6;
+            this.lblAdres.Text = "Adres";
+            // 
+            // txtAd
+            // 
+            this.txtAd.Location = new System.Drawing.Point(61, 22);
+            this.txtAd.Name = "txtAd";
+            this.txtAd.Size = new System.Drawing.Size(106, 20);
+            this.txtAd.TabIndex = 7;
+            // 
+            // txtSoyad
+            // 
+            this.txtSoyad.Location = new System.Drawing.Point(61, 51);
+            this.txtSoyad.Name = "txtSoyad";
+            this.txtSoyad.Size = new System.Drawing.Size(106, 20);
+            this.txtSoyad.TabIndex = 8;
+            // 
+            // txtTelefon
+            // 
+            this.txtTelefon.Location = new System.Drawing.Point(61, 86);
+            this.txtTelefon.Name = "txtTelefon";
+            this.txtTelefon.Size = new System.Drawing.Size(106, 20);
+            this.txtTelefon.TabIndex = 9;
+            // 
+            // txtEposta
+            // 
+            this.txtEposta.Location = new System.Drawing.Point(61, 112);
+            this.txtEposta.Name = "txtEposta";
+            this.txtEposta.Size = new System.Drawing.Size(106, 20);
+            this.txtEposta.TabIndex = 10;
+            // 
+            // txtSifre
+            // 
+            this.txtSifre.Location = new System.Drawing.Point(61, 141);
+            this.txtSifre.Name = "txtSifre";
+            this.txtSifre.Size = new System.Drawing.Size(106, 20);
+            this.txtSifre.TabIndex = 11;
+            // 
+            // txtAdres
+            // 
+            this.txtAdres.Location = new System.Drawing.Point(61, 170);
+            this.txtAdres.Name = "txtAdres";
+            this.txtAdres.Size = new System.Drawing.Size(106, 20);
+            this.txtAdres.TabIndex = 12;
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(661, 446);
+            this.Controls.Add(this.txtAdres);
+            this.Controls.Add(this.txtSifre);
+            this.Controls.Add(this.txtEposta);
+            this.Controls.Add(this.txtTelefon);
+            this.Controls.Add(this.txtSoyad);
+            this.Controls.Add(this.txtAd);
+            this.Controls.Add(this.lblAdres);
+            this.Controls.Add(this.lblSifre);
+            this.Controls.Add(this.lblEposya);
+            this.Controls.Add(this.lblTelefon);
+            this.Controls.Add(this.lblSoyad);
+            this.Controls.Add(this.lblAd);
+            this.Controls.Add(this.btnUyelik);
+            this.Name = "Form1";
+            this.Text = "Form1";
+            this.ResumeLayout(false);
+            this.PerformLayout();
+
+        }
+
+        #endregion
+
+        private System.Windows.Forms.Button btnUyelik;
+        private System.Windows.Forms.Label lblAd;
+        private System.Windows.Forms.Label lblSoyad;
+        private System.Windows.Forms.Label lblTelefon;
+        private System.Windows.Forms.Label lblEposya;
+        private System.Windows.Forms.Label lblSifre;
+        private System.Windows.Forms.Label lblAdres;
+        private System.Windows.Forms.TextBox txtAd;
+        private System.Windows.Forms.TextBox txtSoyad;
+        private System.Windows.Forms.TextBox txtTelefon;
+        private System.Windows.Forms.TextBox txtEposta;
+        private System.Windows.Forms.TextBox txtSifre;
+        private System.Windows.Forms.TextBox txtAdres;
+    }
+}
+

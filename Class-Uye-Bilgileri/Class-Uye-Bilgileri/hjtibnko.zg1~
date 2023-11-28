@@ -1,0 +1,36 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Class_Uye_Bilgileri
+{
+    internal class Uyellk
+    {
+        string Ad;
+        string Soyad;
+        string Telefon;
+        string eposta;
+        string sifre;
+        string Adres;
+
+        public string Ad1 { get => Ad; set => Ad = value; }
+        public string Soyad1 { get => Soyad; set => Soyad = value; }
+        public string Telefon1 { get => Telefon; set => Telefon = value; }
+        public string Eposta { get => eposta; set => eposta = value; }
+        public string Sifre { get => sifre; set => sifre = value; }
+        public string Adres1 { get => Adres; set => Adres = value; }
+
+        public Uyellk(string ad, string soyad, string telefon, string eposta, string sifre, string adres, string ad1)
+        {
+            Ad = ad;
+            Soyad = soyad;
+            Telefon = telefon;
+            this.eposta = eposta;
+            this.sifre = sifre;
+            Adres = adres;
+            
+        }
+    }
+}
